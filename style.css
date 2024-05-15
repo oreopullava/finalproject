@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .navbar {
     display: flex;
     align-items: center;
@@ -11,7 +12,7 @@
     position: sticky;
     top: 0;
     padding: 15px;
-    cursor: pointer;
+    cursor: pointer; 
     z-index: 1000;
 }
 
@@ -138,6 +139,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
+   
 }
 
 .gallery {
@@ -145,11 +147,13 @@ button:hover {
     border: 1px solid hsl(0, 0%, 60%);
     margin: 5px;
     width: 200px;
+    
 }
 
 .gallery .description {
     padding: 10px;
     text-align: center;
+   
 }
 
 .gallery:hover {
