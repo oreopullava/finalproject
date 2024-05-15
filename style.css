@@ -160,3 +160,35 @@ button:hover {
     width: 100%;
     height: auto;
 }
+@media screen and (max-width: 768px) {
+    .nav-list {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .logo img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .nav-list li {
+        padding: 10px;
+    }
+
+    .hero-container {
+        grid-template-columns: 1fr;
+    }
+
+    .column-left h1 {
+        font-size: 3rem;
+    }
+
+    .column-left p {
+        font-size: 1.3rem;
+    }
+
+    .gallery {
+        width: 100%;
+    }
+}
